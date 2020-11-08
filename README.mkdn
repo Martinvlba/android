@@ -24,8 +24,12 @@ hybris-patches/apply-patches.sh --mb
 ```
 . build/envsetup.sh
 
-lunch lineage_beryllium-userdebug
+breakfast lineage_beryllium
 
-........
+make halium-boot
+
+make systemimage
+
+make vendorimage
 ```
 * WIP
