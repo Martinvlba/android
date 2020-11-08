@@ -1,7 +1,7 @@
 Unofficial Ubuntu Touch manifest ( beryllium )
 ===========
 
-Getting started
+Syncing sources
 ---------------
 
 To initialize your local repository using the LineageOS trees, use a command like this:
