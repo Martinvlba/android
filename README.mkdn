@@ -4,11 +4,21 @@ Unofficial Ubuntu Touch manifest ( beryllium )
 Syncing sources
 ---------------
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+* To initialize your local repository using the LineageOS trees, use a command like this:
 ```
 repo init -u https://github.com/Martinvlba/ubuntu-beryllium.git -b beryllium-9.0
 ```
-Then to sync up:
+* Then to sync up:
 ```
 repo sync
 ```
+
+Pathing source and starting the build
+-------------------------
+
+* To patch do this
+```
+hybris-patches/apply-patches.sh --mb
+```
+* Building bootimage, systemimage and vendor
+WIP
