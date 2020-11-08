@@ -6,11 +6,11 @@ Syncing sources
 
 * To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/Martinvlba/ubuntu-beryllium.git -b beryllium-9.0
+$ repo init -u https://github.com/Martinvlba/ubuntu-beryllium.git -b beryllium-9.0
 ```
 * Then to sync up:
 ```
-repo sync
+$ repo sync
 ```
 
 Pathing source
@@ -18,27 +18,27 @@ Pathing source
 
 * To patch do this
 ```
-hybris-patches/apply-patches.sh --mb
+$ hybris-patches/apply-patches.sh --mb
 ```
 Building images
 -------------------------
 * Making compiler use beryllium config (Needs to be done every time after new terminal)
 ```
-. build/envsetup.sh
+$ . build/envsetup.sh
 
-breakfast lineage_beryllium
+$ breakfast lineage_beryllium
 ```
 * Bootimage
 ```
-make halium-boot
+$ make halium-boot
 ```
 * Systemimage
 ```
-make systemimage
+$ make systemimage
 ```
 * Vendorimage
 ```
-make vendorimage
+$ make vendorimage
 ```
 * All the .img files will be in 
 ```
