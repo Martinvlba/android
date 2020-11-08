@@ -10,6 +10,12 @@
 
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com" />
+  
+  <remote  name="erfanoabdi"
+           fetch="https://github.com/erfanoabdi" />
+  
+  <remote  name="martinvlba"
+           fetch="https://github.com/Martinvlba" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -20,6 +26,12 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+  
+  <!-- Other stuff -->
+  <project path="vendor/vndk" name="vendor_vndk" remote="erfanoabdi" revision="master" />
+  
+  <!-- Beryllium tree -->
+  <project path="kernel/halium/sdm845" name="android_kernel_halium_sdm845" remote="martinvlba" revision="beryllium-9.0" />
 
   <!-- Hybris repos -->
   <project path="hybris-patches" name="Halium/hybris-patches" revision="halium-9.0" />
