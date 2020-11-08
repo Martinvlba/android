@@ -28,7 +28,6 @@
            sync-j="4" />
   
   <!-- Other stuff -->
-  <project path="vendor/vndk" name="vendor_vndk" remote="erfanoabdi" revision="master" />
   
   <!-- Beryllium tree -->
   <project path="kernel/halium/sdm845" name="android_kernel_halium_sdm845" remote="martinvlba" revision="beryllium-9.0" />
