@@ -6,7 +6,7 @@ Getting started
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/Halium/android.git -b beryllium-9.0
+repo init -u https://github.com/Martinvlba/android.git -b beryllium-9.0
 ```
 Then to sync up:
 ```
