@@ -13,23 +13,34 @@ repo init -u https://github.com/Martinvlba/ubuntu-beryllium.git -b beryllium-9.0
 repo sync
 ```
 
-Pathing source and starting the build
+Pathing source
 -------------------------
 
 * To patch do this
 ```
 hybris-patches/apply-patches.sh --mb
 ```
-* Building bootimage, systemimage and vendor
+Building images
+-------------------------
+* Making compiler use beryllium config (Needs to be done every time after new terminal)
 ```
 . build/envsetup.sh
 
 breakfast lineage_beryllium
-
+```
+* Bootimage
+```
 make halium-boot
-
+```
+* Systemimage
+```
 make systemimage
-
+```
+* Vendorimage
+```
 make vendorimage
 ```
-* WIP
+* All the .img files will be in 
+```
+out/target/product/beryllium
+```
