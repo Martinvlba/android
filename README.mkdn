@@ -21,4 +21,11 @@ Pathing source and starting the build
 hybris-patches/apply-patches.sh --mb
 ```
 * Building bootimage, systemimage and vendor
-WIP
+```
+. build/envsetup.sh
+
+lunch lineage_beryllium-userdebug
+
+........
+```
+* WIP
