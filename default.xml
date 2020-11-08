@@ -28,7 +28,8 @@
            sync-j="4" />
   
   <!-- Other stuff -->
-  
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="martinvlba" revision="beryllium-9.0" />
+
   <!-- Beryllium tree -->
   <project path="kernel/halium/sdm845" name="android_kernel_halium_sdm845" remote="martinvlba" revision="beryllium-9.0" />
   <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="martinvlba" revision="beryllium-9.0" />
